@@ -207,38 +207,81 @@
 
 
 
-const numberOfFilms = +prompt('How many films did you watch?', '')
+// const numberOfFilms = +prompt('How many films did you watch?', '')
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
 
-for (let i = 0; i < 2; i++) {
-    const a = prompt('One of them?', ''),
-        b = prompt('rate?', '');
+// for (let i = 0; i < 2; i++) {
+//     const a = prompt('One of them?', ''),
+//         b = prompt('rate?', '');
 
-    if (a != null && b != null && a != '' && b != '' && a.length < 10) {
-        personalMovieDB.movies[a] = b;
-        console.log('done');
-    } else {
-        console.log('error');
-        i--;
-    }
-}
+//     if (a != null && b != null && a != '' && b != '' && a.length < 10) {
+//         personalMovieDB.movies[a] = b;
+//         console.log('done');
+//     } else {
+//         console.log('error');
+//         i--;
+//     }
+// }
 
-if(personalMovieDB.count < 10){
-console.log('az kino gorupsin');
-}else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30){
-    console.log('Siz klassnyy zritel');
-}else if(personalMovieDB.count >= 30){
-    console.log("Siz kinoman");
-}else{
-    console.log('Error')
-}
+// if(personalMovieDB.count < 10){
+// console.log('az kino gorupsin');
+// }else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30){
+//     console.log('Siz klassnyy zritel');
+// }else if(personalMovieDB.count >= 30){
+//     console.log("Siz kinoman");
+// }else{
+//     console.log('Error')
+// }
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB); 
+
+
+
+
+// let num = 10;
+// function showFirstMessage(text){
+//     console.log(text);
+//     let num = 20;
+//     console.log(num);
+// }
+// showFirstMessage("Hello world!");
+
+
+
+
+// function calc(a,b){
+//     return (a + b);
+// }
+// console.log(calc(4,5))
+
+
+
+
+
+// function ret(){
+//     let num = 97;
+//     return num;
+// }
+// const anotherNum = ret();
+// console.log(anotherNum)
+
+
+
+// const prog = function(){
+// console.log("Hello");
+// };
+// prog();
+
+
+
+// const calc = (a, b) => {
+//     return a + b;
+// };
