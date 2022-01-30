@@ -285,3 +285,4 @@
 // const calc = (a, b) => {
 //     return a + b;
 // };
+A=25;
